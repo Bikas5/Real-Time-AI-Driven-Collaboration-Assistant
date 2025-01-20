@@ -1,0 +1,13 @@
+Install Dependencies: Run the following command in the project directory to install dependencies:
+
+In bash
+1st: pip install -r requirements.txt
+Run the Application Locally: Use Uvicorn to run the FastAPI application:
+
+2nd : uvicorn main:app --reload
+Deploy to Docker: Build and run the container:
+
+3rd: docker build -t ai-knowledge-search .
+docker run -p 80:80 ai-knowledge-search
+Connect to Slack for the Collaboration Assistant: For the Real-Time AI-Driven Collaboration Assistant, make sure to create a Slack bot and generate an API token. Add this token to your environment variables or a .env file.
+
